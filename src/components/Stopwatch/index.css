@@ -1,0 +1,66 @@
+/* Write CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto';
+  padding: 100px;
+}
+@media (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
+.heading {
+  color: #333333;
+  font-size: 42px;
+  padding-left: 50px;
+}
+.card-container {
+  background-color: #ffffff;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0px 4px 40px rgba(23, 31, 70, 0.16);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.timer-container {
+  display: flex;
+}
+.timer-image {
+  width: 18px;
+  height: 18px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.timer-heading {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+}
+.time {
+  font-size: 40px;
+}
+
+.button {
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.start {
+  background-color: #1db05f;
+}
+.stop {
+  background-color: #ef0d36;
+}
+.restart {
+  background-color: #eaa800;
+}
